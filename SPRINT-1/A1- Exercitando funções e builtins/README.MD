@@ -1,9 +1,13 @@
+# Exercitando funções e builtins 
+
 Você deverá criar duas funções, delta e bhaskara, seguindo as orientações:
 
-delta
+## Delta
 O cálculo de delta deve seguir a seguinte fórmula matemática:
+ <div align="center"> 
+ <img src="https://i.imgur.com/76ABVgO.png" width="200" />
+ </div>
 
-https://i.imgur.com/76ABVgO.png
 
 Parâmetros:
 Essa função recebe 3 parâmetros, a, b e c. Consideremos que sempre serão inteiros positivos.
