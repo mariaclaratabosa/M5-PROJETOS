@@ -9,20 +9,27 @@ O cálculo de delta deve seguir a seguinte fórmula matemática:
  </div>
 
 
-Parâmetros:
-Essa função recebe 3 parâmetros, a, b e c. Consideremos que sempre serão inteiros positivos.
-Procedimento:
-Crie uma lógica que faça o cálculo necessário seguindo a fórmula.
-Retorno:
+Parâmetros: <br />
+Essa função recebe 3 parâmetros, a, b e c. Consideremos que sempre serão inteiros positivos.<br />
+<br />
+Procedimento:<br />
+Crie uma lógica que faça o cálculo necessário seguindo a fórmula.<br />
+<br />
+Retorno:<br />
 A função retorna o resultado de delta.
-bhaskara
+<br />
+
+## Bhaskara
 O cálculo de bhaskara deve utilizar a função delta como auxiliar para calcular as possíveis raízes (x1, x2) da equação. O cálculo deve ser feito a partir das seguintes fórmulas matemáticas:
+ <div align="center"> 
+ <img src="https://i.imgur.com/K94FAiP.png" width="200" />
+ </div>
 
-https://i.imgur.com/K94FAiP.png
-
-Parâmetros:
-Essa função recebe 3 parâmetros, a, b e c. Consideremos que sempre serão inteiros positivos.
-Procedimento:
-Crie uma lógica que faça o cálculo necessário seguindo a fórmula. Utilize da função anterior delta para calcular o delta separadamente.
-Retorno:
+Parâmetros:<br />
+Essa função recebe 3 parâmetros, a, b e c. Consideremos que sempre serão inteiros positivos.<br />
+<br />
+Procedimento:<br />
+Crie uma lógica que faça o cálculo necessário seguindo a fórmula. Utilize da função anterior delta para calcular o delta separadamente.<br />
+<br />
+Retorno:<br />
 Caso o delta seja negativo, a função deve retornar uma string 'Delta Negativo'
