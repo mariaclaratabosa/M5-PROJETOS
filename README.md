@@ -19,3 +19,6 @@ Nesse exercício, realizei algumas operações para exercitar listas em Python.
 
 ## S1 - A4 - Exercitando dicionários
 Nesse exercício, realizei algumas operações para exercitar dicionários em Python.
+
+## S1 - A4 - Exercitando tuplas
+Nesse exercício, realizei algumas operações para exercitar tuplas em Python.
