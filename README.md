@@ -4,6 +4,9 @@ Irei postar todos os meus projetos desenvolvidos durante o bootcamp FullStack na
 <hr />
 
 O `S` significa `SPRINT` ou seja, `S1` significa `SPRINT 1`, e todas as outras `SPRINTS` seguem a mesma lógica.<br />
+O `A` significa `ATVIDADE` ou seja, `A1` significa `ATIVIDADE 1`, e todas as outras `ATIVIDADES` seguem a mesma lógica.<br />
+O `P` significa `PROJETO` ou seja, `P -` significa `PROJETO - [NOME DO PROJETO]`, e todos os outros `PROJETOS` seguem a mesma lógica.<br />
+As `ATIVIDADES` são uma forma de fixar o conteúdo dividido em tópicos, já os `PROJETOS` são para unir todos os conhecimentos adquiridos nas `SPRINTS`. <br />
 
 ## S1 - A1 - Exercitando funções e builtins
 Nesse exercício, criei funções de maneira a calcular as formúlas de delta e bhaskara para exercitar os conceitos de funções e builtins em Python.
@@ -13,3 +16,6 @@ Nesse exercício, criei funções simples para exercitar o uso de loops e condic
 
 ## S1 - A3 - Exercitando listas
 Nesse exercício, realizei algumas operações para exercitar listas em Python.
+
+## S1 - A4 - Exercitando dicionários
+Nesse exercício, realizei algumas operações para exercitar dicionários em Python.
