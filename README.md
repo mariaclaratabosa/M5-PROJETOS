@@ -25,3 +25,6 @@ Nesse exercício, realizei algumas operações para exercitar tuplas em Python.
 
 ## S1 - A7 - Exercitando list comprehension
 Nesse exercício, realizei algumas operações para exercitar list comprehension em Python.
+
+## S1 - A8 - Exercitando exceptions
+Nesse exercício, realizei algumas operações para exercitar tratamento de exeções em Python.
