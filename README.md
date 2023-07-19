@@ -28,3 +28,12 @@ Nesse exercício, realizei algumas operações para exercitar list comprehension
 
 ## S1 - A8 - Exercitando exceptions
 Nesse exercício, realizei algumas operações para exercitar tratamento de exeções em Python.
+
+## S1 - P1 - Kiosque
+Nesse projeto, desenvolvi uma aplicação tem o intuito de facilitar o gerenciamento de uma loja de comidas, dessa forma:
+- Verifica a existência de um produto no menu
+- Lista alimentos de uma categoria específica
+- Calcular gasto total de uma mesa
+- Conta a quantidade total de produtos
+- Conta a média de preço dos produtos
+- Verifica qual tipo de produto é mais presente no estoque.
