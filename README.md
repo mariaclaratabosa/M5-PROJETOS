@@ -37,3 +37,7 @@ Nesse projeto, desenvolvi uma aplicação tem o intuito de facilitar o gerenciam
 - Conta a quantidade total de produtos
 - Conta a média de preço dos produtos
 - Verifica qual tipo de produto é mais presente no estoque.
+
+
+## S2 - A1 - Exercitando métodos especiais
+Nesse exercício, realizei algumas operações para exercitar métodos especiais(mágicos) em Python.
