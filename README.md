@@ -55,6 +55,7 @@ Nesse projeto, desenvolvi uma aplicação tem o intuito de facilitar o gerenciam
 - Conta a média de preço dos produtos
 - Verifica qual tipo de produto é mais presente no estoque.<br/>
 <br/>
+<br/>
 `Python` `builtins` `dict` `object` `list comprehension` `exceptions`
 
 ## S2 - A1 - Exercitando métodos especiais
@@ -72,6 +73,6 @@ Nesse projeto desenvolvi uma API para organizar um campeonato de futebol, onde c
 - Implementação de tratamento de dados e exceções personalizadas
 - Criação de um ambiente virtual
 - Utilização de pacotes e módulos do Django, bem como a integração do Django Rest Framework
-- Desenvolvimento de views com Django<br/>
+- Desenvolvimento de views com Django <br/>
 <br/>
 `Python` `Django` `Django Rest Framework` `venv`
