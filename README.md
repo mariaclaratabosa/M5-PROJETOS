@@ -54,8 +54,6 @@ Nesse projeto, desenvolvi uma aplicação tem o intuito de facilitar o gerenciam
 - Conta a quantidade total de produtos
 - Conta a média de preço dos produtos
 - Verifica qual tipo de produto é mais presente no estoque.<br/>
-<br/>
-<br/>
 `Python` `builtins` `dict` `object` `list comprehension` `exceptions`
 
 ## S2 - A1 - Exercitando métodos especiais
