@@ -73,3 +73,6 @@ Nesse projeto desenvolvi uma API para organizar um campeonato de futebol, onde c
 - Utilização de pacotes e módulos do Django, bem como a integração do Django Rest Framework
 - Desenvolvimento de views com Django <br/>
 `Python` `Django` `Django Rest Framework` `venv`
+
+## S3 - P1 - PetKare
+
