@@ -75,6 +75,70 @@ Nesse projeto desenvolvi uma API para organizar um campeonato de futebol, onde c
 `Python` `Django` `Django Rest Framework` `venv`
 
 ## S3 - P1 - PetKare
+Nesse projeto desenvolvi um sistema completo para petshop, projetado para trazer mais eficiência e organização aos negócios do setor. Como uma API robusta, o PetKare permite um controle aprimorado dos dados dos animais e de seus clientes. <br/>
 
+🐶🦜Um dos pontos-chave é a capacidade de gerenciar relacionamentos entre pets, grupos e características. <br/>
+
+💻🔒 Com foco na qualidade e segurança dos dados, foram implementados serializadores personalizados para validação, entrada e saída de dados. Isso garante que todas as informações sejam tratadas de forma adequada, proporcionando uma interação mais intuitiva e amigável com a plataforma. <br/>
+
+🔍🔧 Em relação às funcionalidades, o PetKare oferece uma ampla gama de opções. Desde a criação, listagem, filtragem e busca até a atualização e deleção de pets, todas as operações foram cuidadosamente desenvolvidas para atender às necessidades dos usuários. <br/>
+
+📊🔄 Recebendo dados de três tabelas simultaneamente, a API permite uma listagem mais completa, além de contar com tratamento de exceções nas rotas de criação, atualização, filtragem e deleção. Isso proporciona maior confiabilidade e robustez à aplicação, tornando-a pronta para atender a um grande número de solicitações. <br/>
+
+🐍🌐 Vale ressaltar que todo o desenvolvimento foi realizado em Python, aproveitando a flexibilidade e poder do framework Django. <br/>
 
 ## S4 - P1 - Kenzie Buster
+Nesse projeto, criei uma aplicação que permite a administração eficiente de usuários, filmes e transações de compra. Uma das características essenciais que desenvolvi foi um sistema de autenticação robusto, juntamente com a definição de permissões específicas para diversos perfis de usuário. 🔐👥 <br/>
+
+Durante o processo de desenvolvimento, apliquei diversos conceitos. Isso incluiu a criação e manutenção de relacionamentos complexos entre usuários e filmes, bem como a personalização aprimorada das informações do usuário. Além disso, trabalhei na implementação de validações personalizadas, utilização eficaz de serializers e na adaptação de métodos conforme as necessidades do projeto. 🛠️💡 <br/>
+
+Para garantir a segurança e a integridade dos dados, integrei a autenticação JWT, o que acrescentou um nível adicional de proteção às transações e ao acesso à plataforma. Além disso, configurei permissões personalizadas por meio do Django Rest Framework, assegurando que diferentes categorias de usuários tenham acesso controlado e apropriado às funcionalidades. 🔒🔑 <br/>
+
+Outras otimizações também foram implementadas, incluindo a paginação aprimorada utilizando a APIView e até mesmo a criação de uma tabela pivô personalizada, contribuindo para uma experiência de usuário mais fluida e eficaz. 📊🔄 <br/>
+## S5 - P1 - Band Kamp
+Neste desafio de refatoração, 🚀 aprimorei um projeto legado onde os usuários podiam se cadastrar e adicionar álbuns e músicas. Originalmente, ele usava Django com APIView, Serializers e SQLite3 como banco de dados. <br/>
+
+Minha missão incluiu: <br/>
+
+- Substituir APIView por GenericAPIView para uma estrutura mais eficiente. <br/>
+- Atualizar Serializers para ModelSerializer para simplificar a serialização de dados. <br/>
+- Migrar o banco de dados de SQLite3 para PostgreSQL para melhor escalabilidade. <br/>
+- Adicionar documentação Swagger/Redoc para facilitar o uso da API. <br/>
+- Corrigir bugs no código, incluindo testes, e ajustar o requirements.txt. <br/>
+- Configurar .env.example para boas práticas de desenvolvimento. <br/>
+- As rotas da API incluíram funcionalidades como registro, busca, atualização e deleção de usuários, login, listagem e registro de álbuns, além de filtragem e registro de músicas associadas a álbuns. <br/>
+
+Ao final, o projeto ficou mais eficiente, bem documentado e pronto para enfrentar futuros desafios. 🔧📦📝
+## - S6 - Projeto final - Kanvas
+Neste projeto de criação de uma API para gerenciamento de cursos e aulas de uma escola de modalidade EAD, vamos usar o poder do Django e do Django Rest Framework para alcançar nossos objetivos. Vamos seguir as orientações do DER fornecido. 🏫📚 <br/>
+
+Aqui estão as principais regras e diretrizes: <br/>
+
+- 🐍 Linguagem: Python com Django e Django Rest Framework. <br/>
+- 🏢 Banco de Dados: PostgreSQL. <br/>
+- 📚 Documentação: Deve incluir Swagger ou Redoc. <br/>
+- 🚀 Deploy: Obrigatório em um ambiente de produção, como Render, Railway ou Vercel. <br/>
+- 👥 Autenticação: Deve usar JSON Web Token (JWT). <br/>
+- 📋 Nomenclatura: Siga rigorosamente as nomenclaturas e relações especificadas no DER. <br/>
+
+Nossas principais rotas e funcionalidades incluem: <br/>
+
+- 📝 Criação de usuários (estudantes ou superusuários). <br/>
+- 🔑 Login de usuários. <br/>
+- 🎓 Criação de cursos (somente superusuários). <br/>
+- 📜 Listagem de cursos (estudantes veem apenas os que participam). <br/>
+- 🔍 Busca de curso por ID. <br/>
+- ✏️ Atualização de dados do curso (somente superusuários). <br/>
+- ❌ Deleção de curso (somente superusuários). <br/>
+- 📝 Criação de conteúdos e associação a cursos (somente superusuários). <br/>
+- 🔍 Busca de conteúdo por ID. <br/>
+- ✏️ Atualização de conteúdo (somente superusuários).<br/>
+- ❌ Deleção de conteúdo (somente superusuários).<br/>
+- 👥 Adição de alunos a cursos (somente superusuários).<br/>
+- 👥 Listagem de estudantes de um curso (somente superusuários).<br/>
+- ❌ Remoção de estudante de um curso (somente superusuários).<br/>
+- 📚 Visualização de documentação (Swagger ou Redoc).<br/>
+
+As respostas seguem padrões específicos em caso de sucesso ou falha, incluindo tratamento de erros como ausência de chaves obrigatórias, unicidade, valores inválidos, acesso proibido e tokens inválidos.<br/>
+
+Este projeto visa criar uma API robusta e bem documentada para atender às necessidades de uma escola EAD. Vamos seguir as diretrizes e garantir que todas as funcionalidades estejam funcionando perfeitamente! 💪🌟
